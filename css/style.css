@@ -34,6 +34,10 @@ body, html {
   	background-clip: padding-box;
 }
 
+.projects {
+	padding: 15px;
+}
+
 .project-img {
 	height: 100px;
 	width: auto;
