@@ -24,7 +24,11 @@
 								var eachProject = data.projects[i];
 								var appendedHTML = '';
 								setTimeout(function(eachProject) {
-									$('.projects').append('<div class="project offset-md-2 col-3 animate__animated animate__fadeInUp"><img class="project-img" src="' + eachProject['imgURL'] + '"><span class="project-title">' + eachProject['title'] + '</span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills">' + eachProject['skills'] + '</span></div>');
+									if (eachProject['imgURL']) {
+										$('.projects').append('<div class="project offset-md-2 col-3 animate__animated animate__fadeInUp"><img class="project-img" src="' + eachProject['imgURL'] + '"><span class="project-title">' + eachProject['title'] + '</span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills">' + eachProject['skills'] + '</span></div>');
+									} else {
+										$('.projects').append('<div class="project offset-md-2 col-3 animate__animated animate__fadeInUp"><span class="project-title">' + eachProject['title'] + '</span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills">' + eachProject['skills'] + '</span></div>');
+									}
 								}, 500 * i, eachProject);
 							}
 						}
