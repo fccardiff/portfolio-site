@@ -21,6 +21,20 @@ body, html {
 	font-size: 24px;
 }
 
+.project {
+	background: #FFFFFF;
+	box-shadow: 0 4px 30px 0 rgba(0,0,0,0.10);
+	border: 1px solid #C2CCD1;
+	font-family: Montserrat-Regular;
+	font-size: 16px;
+	color: #718790;
+}
+
+.project-img {
+	height: 100px;
+	width: auto;
+}
+
 .header-text {
 	text-align: center;
 }
