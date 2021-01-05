@@ -17,8 +17,7 @@
 		<script>
 			$(document).ready(function() {
 				// dynamic generation from projects.json
-				$.get('projects.json', function(err, data) {
-					if (err) console.log(err);
+				$.get('projects.json', function(data) {
 					if (data) {
 						data = JSON.parse(data);
 						if (data.projects) {
