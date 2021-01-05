@@ -52,6 +52,14 @@ body, html {
 	width: auto;
 }
 
+.skill:hover {
+	font-weight: 800;
+	-webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
 .header-text {
 	text-align: center;
 }
