@@ -30,6 +30,17 @@
 						}
 					}
 				});
+				function getRandomColor() {
+				  var letters = '0123456789ABCDEF';
+				  var color = '#';
+				  for (var i = 0; i < 6; i++) {
+				    color += letters[Math.floor(Math.random() * 16)];
+				  }
+				  return color;
+				}
+				$('.skill').each(function() {
+					$(this).css('color', getRandomColor());
+				});
 			});
 		</script>
 	</head>
@@ -43,7 +54,8 @@
 			</div>
 			<div class="header-text">
 				<hr>
-				<span class="short-text">Full stack developer and eCommerce nerd. Check out some of my most recent projects below!</span>
+				<span class="short-text">Full stack developer and eCommerce nerd. Check out some of my most recent projects below!</span><br>
+				<span class="short-text"><b>Top Skills: </b><span class="skill">Node.js</span>, <span class="skill">HTML</span>, <span class="skill">CSS</span>, <span class="skill">Python</span>, <span class="skill">MongoDB</span>
 				<hr>
 			</div>
 			<h4>Projects</h4>
