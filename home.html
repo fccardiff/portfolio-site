@@ -20,6 +20,7 @@
 				$.get('projects.json', function(err, data) {
 					if (err) console.log(err);
 					if (data) {
+						data = JSON.parse(data);
 						if (data.projects) {
 							for (var i = 0; i < data.projects.length; i++) {
 								var eachProject = data.projects[i];
