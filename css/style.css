@@ -28,6 +28,8 @@ body, html {
 	font-family: Montserrat-Regular;
 	font-size: 16px;
 	color: #718790;
+	text-align: center;
+	padding: 15px;
 }
 
 .project-img {
