@@ -34,6 +34,10 @@ body, html {
   	background-clip: padding-box;
 }
 
+.project-short-desc {
+	font-size: 14px;
+}
+
 .projects {
 	padding: 15px;
 }
