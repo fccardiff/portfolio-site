@@ -23,9 +23,9 @@
 							for (var i = 0; i < data.projects.length; i++) {
 								var eachProject = data.projects[i];
 								var appendedHTML = '';
-								setTimeout(function() {
+								setTimeout(function(eachProject) {
 									$('.projects').append('<div class="project col-3 animated fadeInUp"><img class="project-img" src="' + eachProject['imgURL'] + '"><span class="project-title">' + eachProject['title'] + '</span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills">' + eachProject['skills'] + '</span></div>');
-								}, 500 * i, eachProject);
+								}, 500 * i);
 							}
 						}
 					}
