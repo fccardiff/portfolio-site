@@ -19,7 +19,6 @@
 				// dynamic generation from projects.json
 				$.get('projects.json', function(data) {
 					if (data) {
-						data = JSON.parse(data);
 						if (data.projects) {
 							for (var i = 0; i < data.projects.length; i++) {
 								var eachProject = data.projects[i];
