@@ -1,3 +1,39 @@
+/* Background pattern from Toptal Subtle Patterns */
+body {
+	background: url('../img/stripes-light.png');
+	padding-bottom: 70px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.container {
+	background-color: #fff;
+	overflow: auto;
+	height: 100%;
+}
+
+.intro-name {
+	font-size: 24px;
+}
+
+.header-text {
+	text-align: center;
+}
+
+.short-text {
+	font-size: 18px;
+}
+
 .header {
-	
+	text-align: center !important;
+	padding-top: 10px;
+}
+
+.footer {
+	text-align: center !important;
 }

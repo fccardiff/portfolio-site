@@ -1,6 +1,6 @@
 {
 	"projects": [
-		{"title": "Beachgoer", "shortDesc": "eCommerce algotrading startup", "skills": "Node.js, Python, Express.js, Handlebars, MWS", "imgURL": "/images/beachgoer.jpg"},
+		{"title": "Beachgoer", "shortDesc": "eCommerce algotrading startup", "skills": "Node.js, Python, Express.js, Handlebars, MWS", "imgURL": "/images/beachgoer.png"},
 		{"title": "Prop360", "shortDesc": "Marketing automation for real estate investors", "skills": "Swift, Alamofire, Firebase, Firestore", "imgURL": "/images/prop360.jpg"}
 	]
 }
