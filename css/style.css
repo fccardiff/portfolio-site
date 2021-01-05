@@ -36,10 +36,11 @@ body, html {
 
 .project-short-desc {
 	font-size: 14px;
+	font-style: italic;
 }
 
 .project-skills {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .projects {
