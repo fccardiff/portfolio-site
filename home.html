@@ -29,9 +29,9 @@
 										link = '#';
 									}
 									if (eachProject['imgURL']) {
-										$('.projects').append('<div class="project col-3 animate__animated animate__fadeInUp"><img class="project-img" src="' + eachProject['imgURL'] + '"><span class="project-title"><a href="' + link + '">' + eachProject['title'] + '</a></span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills"><b>Libs/Technologies Used: </b>' + eachProject['skills'] + '</span></div>');
+										$('.projects').append('<div class="col-3"><div class="project col-12 animate__animated animate__fadeInUp"><img class="project-img" src="' + eachProject['imgURL'] + '"><span class="project-title"><a href="' + link + '">' + eachProject['title'] + '</a></span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills"><b>Libs/Technologies Used: </b>' + eachProject['skills'] + '</span></div></div>');
 									} else {
-										$('.projects').append('<div class="project col-3 animate__animated animate__fadeInUp"><span class="project-title"><a href="' + link + '">' + eachProject['title'] + '</a></span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills"><b>Libs/Technologies Used: </b>' + eachProject['skills'] + '</span></div>');
+										$('.projects').append('<div class="col-3"><div class="project animate__animated animate__fadeInUp"><span class="project-title"><a href="' + link + '">' + eachProject['title'] + '</a></span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills"><b>Libs/Technologies Used: </b>' + eachProject['skills'] + '</span></div></div>');
 									}
 								}, 500 * i, eachProject);
 							}
