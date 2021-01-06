@@ -34,7 +34,7 @@
 									if (eachProject['imgURL']) {
 										$('.projects').append('<div class="col-3"><div class="project align-vertical-center col-12 animate__animated animate__fadeInUp"><img class="project-img" src="' + eachProject['imgURL'] + '"><span class="project-title"><a href="' + link + '">' + eachProject['title'] + '</a></span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills"><b>Libs/Technologies Used: </b>' + eachProject['skills'] + '</span></div></div>');
 									} else {
-										$('.projects').append('<div class="col-3"><div class="project align-vertical-center col-12 animate__animated animate__fadeInUp"><span class="project-title"><a href="' + link + '">' + eachProject['title'] + '</a></span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills"><b>Libs/Technologies Used: </b>' + eachProject['skills'] + '</span></div></div>');
+										$('.projects').append('<div class="col-3"><div class="project align-vertical-center card justify-content-center col-12 animate__animated animate__fadeInUp"><span class="project-title"><a href="' + link + '">' + eachProject['title'] + '</a></span><br><span class="project-short-desc">' + eachProject['shortDesc'] + '</span><br><span class="project-skills"><b>Libs/Technologies Used: </b>' + eachProject['skills'] + '</span></div></div>');
 									}
 								}, 500 * i, eachProject);
 							}
@@ -74,7 +74,7 @@
 				<hr>
 			</div>
 			<h4>Projects</h4>
-			<span><b>Heads up!</b> These are my largest projects. Like most devs, I've worked on dozens of micro-projects that may not be mentioned here.</span><br>
+			<span><b>Heads up!</b> These are my largest projects. Like most devs, I've worked on dozens of micro-projects that may not be mentioned here. If you'd like to discuss a particular project or anything else, feel free to email me using the icon above!</span><br>
 			<div class="projects row">
 
 			</div>
