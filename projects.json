@@ -1,6 +1,6 @@
 {
 	"projects": [
-		{"title": "Beachgoer", "shortDesc": "eCommerce algotrading startup and surf shop", "skills": "Node.js, Python, Express.js, Handlebars, MWS", "imgURL": "/img/beachgoer.png", "link": "https://beachgoer.com"},
+		{"title": "Beachgoer", "shortDesc": "eCommerce algotrading startup and surf shop", "skills": "Node.js, Python, Express.js, Handlebars", "imgURL": "/img/beachgoer.png", "link": "https://beachgoer.com"},
 		{"title": "Prop360", "shortDesc": "Marketing automation for real estate investors", "skills": "Swift, Alamofire, Firebase, Firestore", "imgURL": "/img/prop360.png", "link": "https://prop360.com"},
 		{"title": "AutomatedSEO", "shortDesc": "Utilities for SEO reach-outs and broken link building", "skills": "Node.js, Hunter.io API, Moz API", "link": "https://github.com/fccardiff/AutomatedSEO"},
 		{"title": "ShopLTE", "shortDesc": "Frontend sales dashboard for managing multiple eCommerce stores", "skills": "Node.js, MongoDB, Shopify API", "link": "https://github.com/fccardiff/shopLTE"},
