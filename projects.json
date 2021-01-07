@@ -5,6 +5,6 @@
 		{"title": "AutomatedSEO", "shortDesc": "Utilities for SEO reach-outs and broken link building", "skills": "Node.js, Hunter.io API, Moz API", "link": "/projects/automatedseo"},
 		{"title": "ShopLTE", "shortDesc": "Frontend sales dashboard for managing multiple eCommerce stores", "skills": "Node.js, MongoDB, Shopify API", "link": "/projects/shoplte"},
 		{"title": "CWP Invoicing", "shortDesc": "Automated invoicing system for local preschool", "skills": "Node.js, node-csv, async, moment, html-pdf, SendGrid", "link": "/projects/cwpinvoicing"},
-		{"title": "EarthlyCraft", "shortDesc": "Custom-developed Minecraft server", "skills": "Java Plugin Development, CSS, HTML, Node.js"}
+		{"title": "EarthlyCraft", "shortDesc": "Custom-developed Minecraft server", "skills": "Java Plugin Development, CSS, HTML, Node.js", "link": "/projects/earthlycraft"}
 	]
 }
